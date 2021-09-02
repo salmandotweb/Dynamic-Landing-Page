@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+:root{
+    --white:#fff;
+    --black:#000;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    background-image: url(img/morning.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+    font-size: 1.6rem;
+}
+
+/* End of Common Styles */
+
+/* momentum */
+
+.content{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.time{
+    font-size: 15rem;
+    font-weight: 600;
+}
+
+.AmPm{
+    font-size: 5rem;
+}
+
+.greeting{
+    font-size: 4rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    max-width: 50%;
+    margin-left: .5rem;
+}
+.todo{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.todo h4{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.fortoday{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-top: 1rem;
+    min-width: 20%;
+    max-width: 100%;
+}
